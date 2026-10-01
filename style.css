@@ -1,0 +1,76 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 25px;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    );
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+}
+
+.hero-section p {
+    margin: 20px 0;
+}
+
+/* Food Box */
+.food-box {
+    font-size: 100px;
+    padding: 50px;
+}
+
+/* Food Icons */
+.food-icon {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Footer */
+footer {
+    margin-top: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 35px;
+    }
+
+    .hero-section {
+        min-height: 450px;
+    }
+
+    .food-box {
+        font-size: 70px;
+        padding: 30px;
+    }
+}
